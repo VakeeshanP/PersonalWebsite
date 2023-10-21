@@ -173,7 +173,7 @@ p{
 #LetsTalk{
     width: 150px;
     height: 40px;
-    border-radius: 100px;
+    border-radius: 20px;
     margin-left: 650px;
     margin-top: 70px;
     color: #ffffff;
@@ -399,6 +399,170 @@ p{
     text-align: center;
     margin-top: 30px;
 }
+
+.address h2{
+    margin-left: 100px;
+}
+
+#address{
+    text-indent: inherit;
+    margin-left: 150px;
+}
+
+#name{
+    width: 300px;
+    height: 30px;
+    margin-left: 600px;
+    margin-top: -370px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: cursive;
+    color: #ffffff;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+#email{
+    width: 300px;
+    height: 30px;
+    margin-left: 1000px;
+    margin-top: -370px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: cursive;
+    color: #ffffff;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+#phone{
+    width: 300px;
+    height: 30px;
+    margin-left: 600px;
+    margin-top: -300px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: cursive;
+    color: #ffffff;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+#subject{
+    width: 300px;
+    height: 30px;
+    margin-left: 1000px;
+    margin-top: -300px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: cursive;
+    color: #ffffff;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+#YourMessage{
+    width: 703px;
+    height: 150px;
+    margin-left: 600px;
+    margin-top: -230px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: cursive;
+    padding: 5px 10px;
+    color: #ffffff;
+    position: absolute;
+}
+
+#SubmitButton{
+    width: 200px;
+    height: 40px;
+    margin-left: 700px;
+    margin-top: -50px;
+    border-radius: 20px;
+    color: #ffffff;
+    position: absolute;
+    background: fixed;
+}
+
+#SubmitButton:hover{
+    background-color: #8b8b8b;
+    font-size: 15px;
+    font-family: cursive;
+    transition: background-color 0.9s;
+}
+
+#ResetButton{
+    width: 100px;
+    height: 40px;
+    margin-left: 1100px;
+    margin-top: -50px;
+    border-radius: 20px;
+    color: #ffffff;
+    position: absolute;
+    background: fixed;
+}
+
+#ResetButton:hover{
+    background-color: #8b8b8b;
+    font-size: 15px;
+    font-family: cursive;
+    transition: background-color 0.9s;
+}
+
+.Facebook{
+    margin-left: 100px;
+    position: absolute;
+    border-radius: 25%;
+    animation: shake 10s infinite;
+}
+
+.Facebook:hover{
+    width: 45px;
+    height: 45px;
+    transition: 0.5s;
+}
+
+.Google{
+    margin-left: 330px;
+    position: absolute;
+    border-radius: 25%;
+    height: 30px;
+    width: 33px;
+    animation: shake 10s infinite;
+}
+
+.Google:hover{
+    width: 45px;
+    height: 45px;
+    transition: 0.5s;
+}
+
+.Instagram{
+    margin-left: 900px;
+    position: absolute;
+    border-radius: 25%;
+    animation: shake 10s infinite;
+}
+
+.Instagram:hover{
+    width: 45px;
+    height: 45px;
+    transition: 0.5s;
+}
+
+.Youtube{
+    margin-left: 1200px;
+    position: absolute;
+    border-radius: 25%;
+    animation: shake 10s infinite;
+}
+
+.Youtube:hover{
+    width: 45px;
+    height: 45px;
+    transition: 0.5s;
+}
 .Yahoo-image{
     margin-left: 600px;
     position: absolute;
@@ -410,6 +574,40 @@ p{
     width: 45px;
     height: 45px;
     transition: 0.5s;
+}
+
+.WhatsApp{
+    width: 40px;
+    margin-left: 1450px;
+    margin-top: -35px;
+    border-radius: 50%;
+    position: absolute;
+    animation: wave 4s infinite linear;
+}
+
+.WhatsApp:hover{
+    width: 45px;
+    height: 45px;
+    transition: 0.5s;
+}
+
+@keyframes wave {
+    0%, 100% {
+      transform: translateX(0) scale(1);
+      border-radius: 50%;
+    }
+    25% {
+      transform: translateX(5px) scale(1.05);
+      border-radius: 55%;
+    }
+    50% {
+      transform: translateX(0) scale(1);
+      border-radius: 50%;
+    }
+    75% {
+      transform: translateX(-5px) scale(1.05);
+      border-radius: 25%;
+    }
 }
 
 @keyframes shake {
@@ -433,4 +631,15 @@ p{
     100% {
       transform: perspective(500px) rotateY(360deg);
     }
+}
+.foot{
+    margin-top: 40px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.Text{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
 }

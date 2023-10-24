@@ -1,645 +1,87 @@
-*{
-    background: linear-gradient(to right, #000000, #5c5959);
-    background-attachment: fixed;
-}
-
 body{
-    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #000000, #4b4949);
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
+nav{
+    background: linear-gradient(to right, #000000, #666363);
+    font-size: 15px;
     width: 100%;
-    background-color: #333;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    z-index: 1000;
-    font-size: 15px;
-    padding: 20px 10px; 
-    line-height: 20px;
+    display: flex;
+    justify-content: space-around;
+    color:white
 }
 
-header img{
-    position: absolute;
-    max-height: 50px;
-    top: 4px;
-    left: 20px;
+nav li{
+    display: inline-block;
+    margin: 0 15px;
 }
 
-header a{
-    background-attachment: fixed;
-    color: #ffffff;
+nav a{
     text-decoration: none;
-    margin-left: 30px;
-    border: none;
-    outline: none;
+    color: white;
     text-transform: uppercase;
+    transition: 0.4s;
 }
 
-header a:hover{
-    font-size: 20px;
-    transition: font-size 0.3s;
-    color: rgb(255, 187, 0);
-}
-
-h1{
-    font-family: cursive;
-    margin-left: 40px;
-}
-
-.Vakeeshan{
-    margin-left: 1170px;
-    margin-top: -150px;
-    position: absolute;
-    border-radius: 50%;
-    background-color: #8b8b8b;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    transition: box-shadow 0.3s;
-}
-
-.Vakeeshan:hover{
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-h2{
-    font-family: cursive;
-    margin-left: 40px;
-}
-
-h2.Intern{
-    background-attachment: fixed;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: .01em solid rgb(255, 255, 255);
-    animation: typing-erasing 6s steps(40) infinite;
-}
-
-@keyframes typing-erasing {
-    100%, 0% {
-        width: 0;
-    }
-    10%, 50% {
-        width: 21%;
-    }
-}
-
-h3{
-    font-family: cursive;
-    margin-left: 40px;
-}
-
-h4{
-    font-family: cursive;
-    margin-left: 40px;
-}
-
-p{
-    font-size: 17px;
-    font-family: cursive;
-    margin-left: 40px;
-    margin-right: 40px;
-    line-height: 1.8em;
-    text-align: justify;
-    text-indent: 20px;
-}
-
-.Linkedin-image{
-    margin-left: 500px;
-    margin-top: -50px;
-    position: absolute;
-    border-radius: 20%;
-    animation: shake 10s infinite;
-}
-
-.Linkedin-image:hover{
-    width: 45px;
-    height: 45px;
-    transition: 0.5s; 
-}
-
-.Github-image{
-    margin-left: 800px;
-    margin-top: -50px;
-    position: absolute;
-    border-radius: 20%;
-    animation: shake 10s infinite;
-}
-
-.Github-image:hover{
-    width: 45px;
-    height: 45px;
-    transition: 0.5s;
-}
-
-.Twitter-image{
-    margin-left: 1100px;
-    margin-top: -50px;
-    position:absolute;
-    border-radius: 20%;
-    animation: shake 10s infinite;
-}
-
-.Twitter-image:hover{
-    width: 42px;
-    height: 42px;
-    transition: 0.5s;
-}
-
-.Stack-image{
-    margin-left: 1400px;
-    margin-top: -50px;
-    position: absolute;
-    border-radius: 25%;
-    animation: shake 10s infinite;
-}
-
-.Stack-image:hover{
-    width: 45px;
-    height: 45px;
-    transition: 0.5s;
-}
-
-#Quote{
-    color: #ff9900;
-    font-size: 15px;
-    margin-left: 600px;
-    margin-top: -20px;
-    background: fixed;
-    text-shadow: 2px 6px 2px rgb(5, 5, 5);
-}
-
-#LetsTalk{
-    width: 150px;
+.logo{
+    width: 130px;
     height: 40px;
-    border-radius: 20px;
-    margin-left: 650px;
-    margin-top: 70px;
-    color: #ffffff;
-    background: fixed;
+    padding: 5px;
+    border-radius: 50px;
 }
 
-#LetsTalk:hover{
-    background-color: #8b8b8b;
-    font-size: 15px;
-    font-family: cursive;
-    transition: background-color 0.9s;
+nav a:hover{
+    color: rgb(255, 166, 2);
+    font-size: 18px;
+
 }
 
-.UCSC h2{
-    text-align: center;
-    margin-top: 10px;
+.MenuLine{
+    height: 3px;
+    width: 20px;
+    background-color: #ffffff;
+    margin-bottom: 4px;
+    border-radius: 5px;
 }
 
-.ICET h2{
-    text-align: center;
-    margin-top: 50px;
+.Menu{
+    cursor: pointer;
+    display: none;
 }
 
-.IJSE h2{
-    text-align: center;
-    margin-top: 50px;
-}
-
-.VC{
-    text-align: center;
-    margin-top: 50px;
-}
-
-.PV{
-    text-align: center;
-    margin-top: 50px;
-}
-
-.KGTMS{
-    text-align: center;
-    margin-top: 50px;
-}
-
-.ProfSkills h2{
-    text-align: center;
-}
-
-#Java{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 150px;
-    margin-top: 50px;
-    background-attachment: fixed;
-    animation: turnImage 10s linear infinite;
-}
-
-#JavaP{
-    position: absolute;
-    margin-left: 150px;
-    margin-top: 150px;
-    background-attachment: fixed;
-}
-
-#Spring{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 400px;
-    margin-top: 50px;
-    animation: turnImage 10s linear infinite;
-}
-
-#SpringP{
-    position: absolute;
-    margin-left: 380px;
-    margin-top: 148px;
-}
-
-#JavaS{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 650px;
-    margin-top: 50px;
-}
-
-#JavaSP{
-    position: absolute;
-    margin-left: 630px;
-    margin-top: 150px;
-}
-
-#React{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 900px;
-    margin-top: 50px;
-}
-
-#ReactP{
-    position: absolute;
-    margin-left: 900px;
-    margin-top: 150px;
-}
-
-#Angular{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 1150px;
-    margin-top: 50px;
-}
-
-#AngularP{
-    position: absolute;
-    margin-left: 1140px;
-    margin-top: 150px;
-}
-
-#MySQL{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 150px;
-    margin-top: 220px;
-}
-
-#MySQLP{
-    position: absolute;
-    margin-left: 140px;
-    margin-top: 310px;
-}
-
-#MongoDB{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 400px;
-    margin-top: 220px;
-}
-
-#MongoDBP{
-    position: absolute;
-    margin-left: 390px;
-    margin-top: 310px;
-}
-
-#HTML{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 650px;
-    margin-top: 220px;
-}
-
-#HTMLP{
-    position: absolute;
-    margin-left: 645px;
-    margin-top: 310px;
-}
-
-#CSS{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 900px;
-    margin-top: 220px;
-}
-
-#CSSP{
-    position: absolute;
-    margin-left: 900px;
-    margin-top: 310px;
-}
-
-#REST{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 1150px;
-    margin-top: 220px;
-}
-
-#RESTP{
-    position: absolute;
-    margin-left: 1130px;
-    margin-top: 310px;
-}
-
-#AboutSkill{
-    margin-left: 100px;
-    margin-top: 400px;
-}
-
-#SupSkill{
-    margin-top: 50px;
-}
-
-.SkillList{
-    margin-left: 70px;
-    font-family: cursive;
-    line-height: 30px;
-    font-size: 17px;
-}
-
-.Projects h2{
-    text-align: center;
-}
-
-.ExList h2{
-    text-align: center;
-    margin-top: 30px;
-}
-
-.address h2{
-    margin-left: 100px;
-}
-
-#address{
-    text-indent: inherit;
-    margin-left: 150px;
-}
-
-#name{
-    width: 300px;
-    height: 30px;
-    margin-left: 600px;
-    margin-top: -370px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-family: cursive;
-    color: #ffffff;
-    padding: 5px 10px;
-    position: absolute;
-}
-
-#email{
-    width: 300px;
-    height: 30px;
-    margin-left: 1000px;
-    margin-top: -370px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-family: cursive;
-    color: #ffffff;
-    padding: 5px 10px;
-    position: absolute;
-}
-
-#phone{
-    width: 300px;
-    height: 30px;
-    margin-left: 600px;
-    margin-top: -300px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-family: cursive;
-    color: #ffffff;
-    padding: 5px 10px;
-    position: absolute;
-}
-
-#subject{
-    width: 300px;
-    height: 30px;
-    margin-left: 1000px;
-    margin-top: -300px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-family: cursive;
-    color: #ffffff;
-    padding: 5px 10px;
-    position: absolute;
-}
-
-#YourMessage{
-    width: 703px;
-    height: 150px;
-    margin-left: 600px;
-    margin-top: -230px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-family: cursive;
-    padding: 5px 10px;
-    color: #ffffff;
-    position: absolute;
-}
-
-#SubmitButton{
-    width: 200px;
-    height: 40px;
-    margin-left: 700px;
-    margin-top: -50px;
-    border-radius: 20px;
-    color: #ffffff;
-    position: absolute;
-    background: fixed;
-}
-
-#SubmitButton:hover{
-    background-color: #8b8b8b;
-    font-size: 15px;
-    font-family: cursive;
-    transition: background-color 0.9s;
-}
-
-#ResetButton{
-    width: 100px;
-    height: 40px;
-    margin-left: 1100px;
-    margin-top: -50px;
-    border-radius: 20px;
-    color: #ffffff;
-    position: absolute;
-    background: fixed;
-}
-
-#ResetButton:hover{
-    background-color: #8b8b8b;
-    font-size: 15px;
-    font-family: cursive;
-    transition: background-color 0.9s;
-}
-
-.Facebook{
-    margin-left: 100px;
-    position: absolute;
-    border-radius: 25%;
-    animation: shake 10s infinite;
-}
-
-.Facebook:hover{
-    width: 45px;
-    height: 45px;
-    transition: 0.5s;
-}
-
-.Google{
-    margin-left: 330px;
-    position: absolute;
-    border-radius: 25%;
-    height: 30px;
-    width: 33px;
-    animation: shake 10s infinite;
-}
-
-.Google:hover{
-    width: 45px;
-    height: 45px;
-    transition: 0.5s;
-}
-
-.Instagram{
-    margin-left: 900px;
-    position: absolute;
-    border-radius: 25%;
-    animation: shake 10s infinite;
-}
-
-.Instagram:hover{
-    width: 45px;
-    height: 45px;
-    transition: 0.5s;
-}
-
-.Youtube{
-    margin-left: 1200px;
-    position: absolute;
-    border-radius: 25%;
-    animation: shake 10s infinite;
-}
-
-.Youtube:hover{
-    width: 45px;
-    height: 45px;
-    transition: 0.5s;
-}
-.Yahoo-image{
-    margin-left: 600px;
-    position: absolute;
-    border-radius: 28%;
-    animation: shake 10s infinite;
-}
-
-.Yahoo-image:hover{
-    width: 45px;
-    height: 45px;
-    transition: 0.5s;
-}
-
-.WhatsApp{
-    width: 40px;
-    margin-left: 1450px;
-    margin-top: -35px;
-    border-radius: 50%;
-    position: absolute;
-    animation: wave 4s infinite linear;
-}
-
-.WhatsApp:hover{
-    width: 45px;
-    height: 45px;
-    transition: 0.5s;
-}
-
-@keyframes wave {
-    0%, 100% {
-      transform: translateX(0) scale(1);
-      border-radius: 50%;
+@media all and (max-width : 888px) {
+    nav{
+        flex-direction: column;
     }
-    25% {
-      transform: translateX(5px) scale(1.05);
-      border-radius: 55%;
+
+    nav li{
+        display: block;
+        padding: 2px;
     }
-    50% {
-      transform: translateX(0) scale(1);
-      border-radius: 50%;
+
+    ul{
+        text-align: center;
+        padding: 0;
+        display: none;
+        margin-top: -50px;
     }
-    75% {
-      transform: translateX(-5px) scale(1.05);
-      border-radius: 25%;
+
+    .logo{
+        align-self: flex-start;
+        
+    }
+
+    .Menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .ShowMenu{
+        display: block;
     }
 }
 
-@keyframes shake {
-    0% { transform: translate(0, 0); }
-  10% { transform: translate(-2px, -2px); }
-  20% { transform: translate(2px, 2px); }
-  30% { transform: translate(-2px, -2px); }
-  40% { transform: translate(2px, 2px); }
-  50% { transform: translate(-2px, -2px); }
-  60% { transform: translate(2px, 2px); }
-  70% { transform: translate(-2px, -2px); }
-  80% { transform: translate(2px, 2px); }
-  90% { transform: translate(-2px, -2px); }
-  100% { transform: translate(0, 0); }
-}
-
-@keyframes turnImage {
-    0% {
-      transform: perspective(500px) rotateY(0deg);
-    }
-    100% {
-      transform: perspective(500px) rotateY(360deg);
-    }
-}
-.foot{
-    margin-top: 40px;
-    text-align: right;
-    text-decoration: none;
-}
-
-.Text{
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 10px;
-}

@@ -2,15 +2,19 @@ body{
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #000000, #4b4949);
+    background-attachment: fixed;
 }
 
 nav{
+    top: 0;
+    position: fixed;
     background: linear-gradient(to right, #000000, #666363);
     font-size: 15px;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    color:white
+    color:white;
+    z-index: 100;
 }
 
 nav li{
@@ -51,6 +55,1248 @@ nav a:hover{
     display: none;
 }
 
+h1{
+    color: white;
+    font-family: cursive;
+    margin-left: 50px;
+}
+
+h2{
+    color: white;
+    font-family: cursive;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.Intern{
+    background-attachment: fixed;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .01em solid rgb(255, 255, 255);
+    animation: typing-erasing 6s steps(50) infinite;
+}
+
+.Vakeeshan{
+    display: flex;
+    float: right;
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-top: -100px;
+    filter: brightness(70%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s;
+    transition: 0.3s;
+    background: fixed;
+}
+
+.Vakeeshan:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    filter: brightness(50%);
+}
+
+.HomeParagraph{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    text-indent: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.LetsTalk{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #919090;
+}
+
+.LetsTalk:hover{
+    background-color: #444242;
+    font-size: 15px;
+    font-family: cursive;
+    transition: background-color 0.9s;
+    color:white;
+}
+
+.AboutParagrah{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    text-indent: 20px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    line-height: 1.6;
+    list-style: disc outside;
+    text-align: justify;
+}
+
+.Quote{
+    color: #ff9900;
+    font-size: 17px;
+    font-family: cursive;
+    background: fixed;
+    text-shadow: 2px 6px 2px rgb(5, 5, 5);
+    float: right;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.SocialMedias{
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.Linkedin{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.Twitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.Facebook{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: solid white 1px;
+}
+
+.Instagram{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: solid white 1px;
+}
+
+.Linkedin:hover{
+    filter: brightness(50%);
+}
+
+.Twitter:hover{
+    filter: brightness(50%);
+}
+
+.Facebook:hover{
+    filter: brightness(50%);
+}
+
+.Instagram:hover{
+    filter: brightness(50%);
+}
+
+.UCSC h2{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.ICET h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.IJSE h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.VC{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.PV{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.KGTMS{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.EduParagraph{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    text-indent: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.ProfSkills h2{
+    text-align: center;
+}
+
+#Java{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 170px;
+    margin-top: 20px;
+    background-attachment: fixed;
+    animation: turnImage 10s linear infinite;
+}
+
+#JavaP{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 190px;
+}
+
+#Spring{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 420px;
+    margin-top: 20px;
+    animation: turnImage 10s linear infinite;
+}
+
+#SpringP{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 420px;
+}
+
+#JavaS{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+
+#JavaSP{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 670px;
+}
+
+#React{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 920px;
+    margin-top: 20px;
+}
+
+#ReactP{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 940px;
+}
+
+#MySQL{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 1170px;
+    margin-top: 20px;
+}
+
+#MySQLP{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 1185px;
+}
+
+#MongoDB{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 170px;
+    margin-top: 220px;
+}
+
+#MongoDBP{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 180px;
+}
+
+#HTML{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 420px;
+    margin-top: 220px;
+}
+#HTMLP{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 430px;
+}
+
+#CSS{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 670px;
+    margin-top: 220px;
+}
+
+#CSSP{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 690px;
+}
+
+#REST{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 920px;
+    margin-top: 220px;
+}
+
+#RESTP{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 920px;
+}
+
+.ProfSkillsParagraph{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    text-indent: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 420px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.SupSkillList{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    text-indent: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.ProjectHead{
+    text-align: center;
+}
+
+.ProjectParagraph{
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    text-indent: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.ExHead{
+    text-align: center;
+    padding: 20px;
+}
+
+.ExParagraph{
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    text-indent: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.address{
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.Contact{
+    float: right;
+    margin-right: 200px;
+    margin-top: -370px;
+}
+
+#name{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 17px;
+    margin: 20px;
+    text-align: center;
+}
+
+#email{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 17px;
+    margin: 20px;
+    text-align: center;
+}
+
+#phone{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 17px;
+    margin: 20px;
+    text-align: center;
+}
+
+#subject{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 17px;
+    margin: 20px;
+    text-align: center;
+}
+
+#YourMessage{
+    width: 650px;
+    height: 200px;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 17px;
+    margin: 20px;
+    text-align: center;
+}
+
+#SubmitButton{
+    width: 250px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 20px;
+    font-family: cursive;
+    margin: 20px;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+
+#SubmitButton:hover{
+    background-color: #525252;
+    color: #ffffff;
+}
+
+#ResetButton{
+    width: 250px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 20px;
+    font-family: cursive;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+#ResetButton:hover{
+    background-color: #525252;
+    color: #ffffff;
+}
+
+.WhatsApp{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.WhatsApp:hover{
+    border-radius: 50px;
+}
+
+.ContactParagraph{
+    font-family: cursive;
+    font-size: 18px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-indent: 20px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.FooterParagraph{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* Making KeyFrames to Animate */
+
+@keyframes typing-erasing {
+    100%, 0% {
+        width: 0;
+    }
+    10%, 50% {
+        width: 21%;
+    }
+}
+
+@keyframes turnImage {
+    0% {
+      transform: perspective(500px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(500px) rotateY(360deg);
+    }
+}
+
+
+/* Making Responsive for 1920px */
+
+@media all and (max-width : 1920px) {
+    
+    .Intern{
+        font-size: 25px;
+    }
+
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 17%;
+        }
+    }
+
+    #About{
+        margin-top: -100px;
+    }
+
+}
+
+
+/* Making Responsive for 1680px */
+
+@media all and (max-width : 1680px) {
+    
+    .Intern{
+        font-size: 25px;
+    }
+
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 19%;
+        }
+    }
+
+    #About{
+        margin-top: -100px;
+    }
+
+}
+
+
+
+/* Making Responsive for 1440px */
+
+@media all and (max-width : 1440px) {
+
+    .Intern{
+        font-size: 25px;
+    }
+
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 22%;
+        }
+    }
+
+}
+
+
+/* Making Responsive for 1366px */
+
+@media all and (max-width : 1366px) {
+
+    .Intern{
+        font-size: 20px;
+    }
+
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 19%;
+        }
+    }
+
+}
+
+
+/* Making Responsive for 1280px */
+
+@media all and (max-width : 1280px) {
+
+    .Intern{
+        font-size: 20px;
+    }
+
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 20%;
+        }
+    }
+
+    .LetsTalk{
+        margin-top: -100px;
+    }
+
+    #About{
+        margin-top: -100px;
+    }
+
+    .Linkedin{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Twitter{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Facebook{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Instagram{
+        width: 30px;
+        height: 30px;
+    }
+
+    #Java{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top: 20px;
+        background-attachment: fixed;
+        animation: turnImage 10s linear infinite;
+    }
+    
+    #JavaP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 110px;
+    }
+    
+    #Spring{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 300px;
+        margin-top: 20px;
+        animation: turnImage 10s linear infinite;
+    }
+    
+    #SpringP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 300px;
+    }
+    
+    #JavaS{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 500px;
+        margin-top: 20px;
+    }
+    
+    #JavaSP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 505px;
+    }
+    
+    #React{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 700px;
+        margin-top: 20px;
+    }
+    
+    #ReactP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 720px;
+    }
+    
+    #MySQL{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 900px;
+        margin-top: 20px;
+    }
+    
+    #MySQLP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 920px;
+    }
+    
+    #MongoDB{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top: 220px;
+    }
+    
+    #MongoDBP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 110px;
+    }
+    
+    #HTML{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 300px;
+        margin-top: 220px;
+    }
+    #HTMLP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 315px;
+    }
+    
+    #CSS{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 500px;
+        margin-top: 220px;
+    }
+    
+    #CSSP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 520px;
+    }
+    
+    #REST{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 700px;
+        margin-top: 220px;
+    }
+    
+    #RESTP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 700px;
+    }
+
+    #name{
+        margin-top: 20px;
+        margin-left: 0px;
+        position: absolute;
+    }
+
+    #email{
+        position: absolute;
+        margin-left: 350px;
+    }
+
+    #phone{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 350px;
+    }
+
+    #subject{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    #YourMessage{
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 0px;
+    }
+
+    #SubmitButton{
+        position: absolute;
+        margin-top: 350px;
+        height: 40px;
+    }
+
+    #ResetButton{
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 350px;
+        height: 40px;
+    }
+
+    #form{
+        margin-right: 750px;
+    }
+
+}
+
+
+/* Making Responsive for 1200px */
+
+@media all and (max-width : 1200px) {
+
+    .Intern{
+        font-size: 20px;
+    }
+
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 21%;
+        }
+    }
+
+}
+
+
+
+/* Making Responsive for 1024px */
+
+@media all and (max-width : 1024px) {
+
+    #email{
+        position: absolute;
+        margin-left: 350px;
+        margin-top: 500px;
+    }
+
+    #phone{
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 350px;
+    }
+
+    #subject{
+        position: absolute;
+        margin-top: 550px;
+    }
+
+    #YourMessage{
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 0px;
+    }
+
+    #SubmitButton{
+        position: absolute;
+        margin-top: 850px;
+        height: 40px;
+    }
+
+    #ResetButton{
+        position: absolute;
+        margin-top: 850px;
+        margin-left: 350px;
+        height: 40px;
+    }
+
+    #form{
+        padding-right: 100px;
+    }
+
+    .ContactParagraph{
+        margin-top: 500px;
+    }
+
+}
+
+
+/* Making Responsive for 1080px */
+
+@media all and (max-width : 1080px) {
+
+    .Intern{
+        font-size: 20px;
+    }
+
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 24%;
+        }
+    }
+
+    .Vakeeshan{
+        width: 200px;
+        height: 200px;
+    }
+
+    .LetsTalk{
+        margin-top: -200px;
+    }
+
+    #About{
+        margin-top: -200px;
+    }
+
+    .Linkedin{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Twitter{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Facebook{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Instagram{
+        width: 30px;
+        height: 30px;
+    }
+
+    #Java{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top: 20px;
+        background-attachment: fixed;
+        animation: turnImage 10s linear infinite;
+    }
+    
+    #JavaP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 110px;
+    }
+    
+    #Spring{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 300px;
+        margin-top: 20px;
+        animation: turnImage 10s linear infinite;
+    }
+    
+    #SpringP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 300px;
+    }
+    
+    #JavaS{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 500px;
+        margin-top: 20px;
+    }
+    
+    #JavaSP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 505px;
+    }
+    
+    #React{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 700px;
+        margin-top: 20px;
+    }
+    
+    #ReactP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 720px;
+    }
+    
+    #MySQL{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 900px;
+        margin-top: 20px;
+    }
+    
+    #MySQLP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 920px;
+    }
+    
+    #MongoDB{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top: 220px;
+    }
+    
+    #MongoDBP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 110px;
+    }
+    
+    #HTML{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 300px;
+        margin-top: 220px;
+    }
+    #HTMLP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 315px;
+    }
+    
+    #CSS{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 500px;
+        margin-top: 220px;
+    }
+    
+    #CSSP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 520px;
+    }
+    
+    #REST{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 700px;
+        margin-top: 220px;
+    }
+    
+    #RESTP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 320px;
+        margin-left: 700px;
+    }
+
+    #name{
+        margin-top: 500px;
+    }
+
+}
+
+
+/* Making Responsive for 991px */
+
+@media all and (max-width : 991px) {
+    .Intern{
+        font-size: 20px;
+    }
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 26%;
+        }
+    }
+
+    .LetsTalk{
+        margin-top: 0px;
+    }
+
+    #MySQL{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top: 420px;
+    }
+    
+    #MySQLP{
+        color: white;
+        font-family: cursive;
+        position: absolute;
+        margin-top: 510px;
+        margin-left: 110px;
+    }
+
+    .ProfSkillsParagraph{
+        top: 190px;
+        left: 0px;
+        position: relative;
+    }
+
+    .SupSkill{
+        margin-top: 250px;
+    }
+
+    .WhatsApp{
+        margin-top: -10px;
+        margin-left: 100px;
+        position: absolute;
+    }
+
+    .ContactParagraph{
+        top: 7150px;
+        position: absolute;
+    }
+
+    .footer{
+        margin-top: 800px;
+    }
+
+
+}
+
+
+
+/* Making Responsive for 888 */
+
 @media all and (max-width : 888px) {
     nav{
         flex-direction: column;
@@ -83,5 +1329,85 @@ nav a:hover{
     .ShowMenu{
         display: block;
     }
+
+    .Greetings{
+        font-size: 17px;
+        margin-top: 50px;
+    }
+
+    .Intern{
+        font-size: 16px;
+    }
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 23%;
+        }
+    }
+
+    .Vakeeshan{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .HomeParagraph{
+        font-size: 15px;
+    }
+
+    .LetsTalk{
+        margin-top: -150px;
+    }
+
+    #About{
+        font-size: 17px;
+    }
+
+    .AboutParagrah{
+        font-size: 15px;
+    }
+
+    .Quote{
+        font-size: 15px;
+    }
+
+    .Linkedin{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Twitter{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Facebook{
+        width: 30px;
+        height: 30px;
+    }
+
+    .Instagram{
+        width: 30px;
+        height: 30px;
+    }
+
+    #Education{
+        font-size: 17px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    .EduParagraph{
+        font-size: 15px;
+    }
+
+    #Skills{
+        font-size: 17px;
+    }
+
 }
 

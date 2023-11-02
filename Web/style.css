@@ -970,6 +970,19 @@ h2{
 
 @media all and (max-width : 1024px) {
 
+    .Intern{
+        font-size: 20px;
+    }
+
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 23%;
+        }
+    }
+
     #email{
         position: absolute;
         margin-left: 350px;
@@ -1231,7 +1244,7 @@ h2{
 
 /* Making Responsive for 991px */
 
-@media all and (max-width : 991px) {
+@media screen and (max-width: 991px) {
     .Intern{
         font-size: 20px;
     }
@@ -1297,7 +1310,7 @@ h2{
 
 /* Making Responsive for 888 */
 
-@media all and (max-width : 888px) {
+@media screen and (max-width: 888px) {
     nav{
         flex-direction: column;
     }
@@ -1409,5 +1422,287 @@ h2{
         font-size: 17px;
     }
 
+    .ContactParagraph{
+        top: 5700px;
+        position: absolute;
+    }
+
 }
 
+
+/* Making Responsive for 768px */
+
+@media screen and (max-width: 768px) {
+
+    .Intern{
+        font-size: 16px;
+    }
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 27%;
+        }
+    }
+
+    #name{
+        width: 250px;
+        position: absolute;
+        margin-left: 150px;
+    }
+
+    #email{
+        width: 250px;
+        position: absolute;
+        margin-left: 500px;
+    }
+
+    #subject{
+        width: 250px;
+        position: absolute;
+        margin-left: 150px;
+    }
+
+    #phone{
+        width: 250px;
+        position: absolute;
+        margin-left: 500px;
+    }
+
+    #YourMessage{
+        width: 600px;
+        position: absolute;
+        margin-left: 150px;
+    }
+
+    #SubmitButton{
+        position: absolute;
+        margin-left: 150px;
+    }
+
+    #ResetButton{
+        position: absolute;
+        margin-left: 500px;
+    }
+
+    .ContactParagraph{
+        position: absolute;
+        top: 6050px;
+    }
+
+}
+
+
+/* Making Responsive for 650px */
+
+@media screen and (max-width: 650px) {
+
+    .Intern{
+        font-size: 16px;
+    }
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 33%;
+        }
+    }
+
+    #name{
+        width: 230px;
+        position: absolute;
+        margin-left: 230px;
+    }
+
+    #email{
+        width: 230px;
+        position: absolute;
+        margin-left: 550px;
+    }
+
+    #subject{
+        width: 230px;
+        position: absolute;
+        margin-left: 230px;
+    }
+
+    #phone{
+        width: 230px;
+        position: absolute;
+        margin-left: 550px;
+    }
+
+    #YourMessage{
+        width: 550px;
+        position: absolute;
+        margin-left: 230px;
+    }
+
+    #SubmitButton{
+        width: 230px;
+        position: absolute;
+        margin-left: 230px;
+    }
+
+    #ResetButton{
+        width: 230px;
+        position: absolute;
+        margin-left: 550px;
+    }
+
+    .ContactParagraph{
+        position: absolute;
+        top: 6600px;
+    }
+
+    .footer{
+        top: 6500px;
+        position: absolute;
+    }
+
+}
+
+
+/* Making Responsive for 520px */
+
+
+@media screen and (max-width: 520px) {
+
+    .Intern{
+        font-size: 16px;
+    }
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 39%;
+        }
+    }
+
+    #name{
+        width: 200px;
+        position: absolute;
+        margin-left: 350px;
+    }
+
+    #email{
+        width: 200px;
+        position: absolute;
+        margin-left: 600px;
+    }
+
+    #subject{
+        width: 200px;
+        position: absolute;
+        margin-left: 350px;
+    }
+
+    #phone{
+        width: 200px;
+        position: absolute;
+        margin-left: 600px;
+    }
+
+    #YourMessage{
+        width: 450px;
+        position: absolute;
+        margin-left: 350px;
+    }
+
+    #SubmitButton{
+        width: 200px;
+        position: absolute;
+        margin-left: 350px;
+    }
+
+    #ResetButton{
+        width: 200px;
+        position: absolute;
+        margin-left: 600px;
+    }
+
+    .ContactParagraph{
+        position: absolute;
+        top: 7600px;
+    }
+
+    .footer{
+        top: 7620px;
+        position: absolute;
+    }
+
+}
+
+
+/* Making Responsive for 414px */
+
+@media screen and (max-width: 414px) {
+
+    .Intern{
+        font-size: 16px;
+    }
+    @keyframes typing-erasing {
+        100%, 0% {
+            width: 0;
+        }
+        10%, 50% {
+            width: 50%;
+        }
+    }
+
+    #name{
+        width: 150px;
+        position: absolute;
+        margin-left: 470px;
+    }
+
+    #email{
+        width: 150px;
+        position: absolute;
+        margin-left: 650px;
+    }
+
+    #subject{
+        width: 150px;
+        position: absolute;
+        margin-left: 470px;
+    }
+
+    #phone{
+        width: 150px;
+        position: absolute;
+        margin-left: 650px;
+    }
+
+    #YourMessage{
+        width: 340px;
+        position: absolute;
+        margin-left: 460px;
+    }
+
+    #SubmitButton{
+        width: 150px;
+        position: absolute;
+        margin-left: 470px;
+    }
+
+    #ResetButton{
+        width: 150px;
+        position: absolute;
+        margin-left: 650px;
+    }
+
+    .ContactParagraph{
+        position: absolute;
+        top: 9020px;
+    }
+
+    .footer{
+        top: 9100px;
+        position: absolute;
+    }
+
+}
